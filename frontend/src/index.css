@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #eef3f4;
+  --color-paper: #fcfdfd;
+  --color-ink: #102a2c;
+  --color-moss: #176b5d;
+  --color-signal: #c8954c;
+  --color-muted: #65777a;
+  --color-danger: #a23d2c;
+  --font-display: Georgia, "Times New Roman", serif;
+}
+
+@layer base {
+  html { background: var(--color-canvas); }
+  body { margin: 0; min-width: 320px; }
+  button, input { font: inherit; }
+}
